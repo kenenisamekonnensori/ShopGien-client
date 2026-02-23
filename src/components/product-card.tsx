@@ -58,10 +58,10 @@ export function ProductCard({
               variant="outline"
               size="sm"
               className="w-full bg-transparent"
-              onClick={(e) => {
-                e.preventDefault()
-                onViewDetails?.(id)
-              }}
+              // onClick={(e) => {
+              //   e.preventDefault()
+              //   onViewDetails?.(id)
+              // }}
             >
               <ExternalLink className="w-3.5 h-3.5 mr-1" />
               Details
